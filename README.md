@@ -8,6 +8,7 @@
 📃 <a href="" target="_blank">Paper</a> ｜ 🤗 <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-8B" target="_blank">HuatuoGPT-3-8B</a> ｜ 🤗 <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-32B" target="_blank">HuatuoGPT-3-32B</a>  
 </p>
 <!-- ｜ 📚 <a href="https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT-3-Data" target="_blank">Data&Code</a> -->
+
 ## ⚡ Introduction
 
 HuatuoGPT-3 is a new open medical LLM series built with **SeedRL**, an RL-only domain adaptation paradigm. Instead of relying on the conventional two-stage pipeline (SFT then RL), SeedRL transforms a pretrained base model into a medical expert in a **single RL stage** through off-policy seeding.
