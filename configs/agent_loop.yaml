@@ -1,0 +1,2 @@
+- name: onepo_single_turn
+  _target_: onepo.agent_loop.OnePOSingleTurnAgentLoop

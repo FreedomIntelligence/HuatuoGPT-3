@@ -1,0 +1,3 @@
+# Prepare the pinned verl environment first; see docs/training.md.
+# pyproject.toml declares the exact verl commit.
+-e .
