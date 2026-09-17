@@ -25,7 +25,8 @@ LOGS_DIR="${LOGS_DIR:-${OUTPUT_DIR}/logs}"
 OUTPUTS_DIR="${OUTPUTS_DIR:-${OUTPUT_DIR}/outputs}"
 SWANLAB_DIR="${SWANLAB_DIR:-${OUTPUT_DIR}/swanlog}"
 HYDRA_OUTPUT_DIR="${HYDRA_OUTPUT_DIR:-${OUTPUTS_DIR}/hydra/${EXPERIMENT_NAME}}"
-TMP_DIR="${TMP_DIR:-${OUTPUT_DIR}/tmp}"
+# Python multiprocessing also uses AF_UNIX sockets; keep this path short.
+TMP_DIR="${TMP_DIR:-/tmp/onepo-tmp-${UID}-$$}"
 # Ray requires a short, unique temporary directory for AF_UNIX sockets.
 RAY_SOCKET_DIR="${RAY_SOCKET_DIR:-/tmp/onepo-${UID}-$$}"
 
