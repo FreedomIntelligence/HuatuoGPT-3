@@ -6,9 +6,8 @@
 
 <p align="center">
 📃 <a href="https://openreview.net/pdf?id=M8eyUQldfx" target="_blank">Paper</a> ｜
-🤗 <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-8B" target="_blank">HuatuoGPT-3-8B</a> ｜
 🤗 <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-9B" target="_blank">HuatuoGPT-3-9B</a> ｜
-🤗 <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-32B" target="_blank">HuatuoGPT-3-32B</a> ｜
+🤗 <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-27B" target="_blank">HuatuoGPT-3-27B</a> ｜
 ⚖️ <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-Grader-8B" target="_blank">Grader</a> ｜
 📚 <a href="https://huggingface.co/datasets/FreedomIntelligence/OnePO-Medical-20K" target="_blank">Data</a>
 </p>
@@ -30,12 +29,11 @@ This repository provides our medical models, OnePO training code, RL dataset, an
 
 - **Model Access**
 
-| Model | Backbone | Purpose | Access |
-| --- | --- | --- | --- |
-| **HuatuoGPT-3-8B** | Qwen3-8B-Base | Medical reasoning | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-8B) |
-| **HuatuoGPT-3-9B** | Qwen3.5-9B | Medical reasoning | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-9B) |
-| **HuatuoGPT-3-32B** | Qwen3-32B | Medical reasoning | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-32B) |
-| **HuatuoGPT-3-Grader-8B** | Qwen3-8B | Rubric scoring | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-Grader-8B) |
+| Model | Backbone | HealthBench Professional ↑ | Access |
+| --- | --- | ---: | --- |
+| **HuatuoGPT-3-9B** | Qwen3.5-9B | **68.3** | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-9B) |
+| **HuatuoGPT-3-27B** | Qwen3.8-27B | **71.4** | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-27B) |
+| **HuatuoGPT-3-Grader-8B** | Qwen3-8B | — | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-Grader-8B) |
 
 - **Deploy**
 
